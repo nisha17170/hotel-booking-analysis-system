@@ -15,7 +15,7 @@ try:
                 nights=int(row[4])
                 price=int(row[5])
                 total_booking+=1
-                total_revenue=price*nights
+                total_revenue+=price*nights
              except:
                  pass
              with open("filtered_booking.csv",mode="w",newline="")as export_file:
@@ -266,6 +266,7 @@ plt.plot(df["booking_id"],
 plt.xlabel("Booking ID")
 plt.ylabel("Revenue")
 plt.title("Revenue Trend")
+plt.savefig("Booking_analysis_graph.png")
 plt.show()
 
 
