@@ -37,4 +37,4 @@ hotel-booking-analysis-system/
    
 
 ## Author
-*Kamarunisha Kamaru*
+*Kamaru Nisha*
